@@ -1,0 +1,125 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNBbIQznXnNp3A1coevjdSJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ganieowais/Calculator.owa.com/blob/main/Program%201(simple%20program)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5240f47b",
+        "outputId": "cfd25134-20ad-4523-c0e4-c3e8f4b1c834"
+      },
+      "source": [
+        "print(\"--- Arithmetic Operators ---\")\n",
+        "a = 10\n",
+        "b = 3\n",
+        "print(f\"a + b = {a + b}\")\n",
+        "print(f\"a - b = {a - b}\")\n",
+        "print(f\"a * b = {a * b}\")\n",
+        "print(f\"a / b = {a / b}\")\n",
+        "print(f\"a % b = {a % b}\")\n",
+        "print(f\"a ** b = {a ** b}\")\n",
+        "print(f\"a // b = {a // b}\")\n",
+        "\n",
+        "print(\"\\n--- Comparison Operators ---\")\n",
+        "x = 5\n",
+        "y = 8\n",
+        "print(f\"x == y: {x == y}\")\n",
+        "print(f\"x != y: {x != y}\")\n",
+        "print(f\"x > y: {x > y}\")\n",
+        "print(f\"x < y: {x < y}\")\n",
+        "print(f\"x >= y: {x >= y}\")\n",
+        "print(f\"x <= y: {x <= y}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- Arithmetic Operators ---\n",
+            "a + b = 13\n",
+            "a - b = 7\n",
+            "a * b = 30\n",
+            "a / b = 3.3333333333333335\n",
+            "a % b = 1\n",
+            "a ** b = 1000\n",
+            "a // b = 3\n",
+            "\n",
+            "--- Comparison Operators ---\n",
+            "x == y: False\n",
+            "x != y: True\n",
+            "x > y: False\n",
+            "x < y: True\n",
+            "x >= y: False\n",
+            "x <= y: True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "c2QBmUe913I5"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "03c0d281",
+        "outputId": "cf68f6b6-a771-4bae-af03-dcf7a8908cd3"
+      },
+      "source": [
+        "print(\"\\n--- Addition Program ---\")\n",
+        "num1 = 25\n",
+        "num2 = 17\n",
+        "sum_result = num1 + num2\n",
+        "print(f\"The sum of {num1} and {num2} is: {sum_result}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "--- Addition Program ---\n",
+            "The sum of 25 and 17 is: 42\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
